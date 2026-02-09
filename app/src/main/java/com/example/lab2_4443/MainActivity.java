@@ -50,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
         //This for loop goes through each text file and adds to the arrayList
         for(int i=0; i<title.length; i++){
             itemModel.add(new ItemModel(title[i], desc[i], itemImages[i], detailedDesc[i], detailedTitle[i]));
-
         }
+        //Test what happens with null values
+        //itemModel.add(new ItemModel(null, null, 0, null, null));
     }
 }

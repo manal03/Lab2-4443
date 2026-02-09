@@ -45,21 +45,18 @@ public class SimpleAdapter extends RecyclerView.Adapter<MyViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         ItemModel item = itemModels.get(position);
-        holder.titleView.setText(item.getTitle());
-        holder.descView.setText(item.getDescription());
-        holder.imageView.setImageResource(item.getImageResId());
 
 
         // Placeholder title
         String title = item.getTitle();
         if (title == null || title.trim().isEmpty()) {
-            title = "Untitled";
+            title = "Unknown";
         }
 
         // Placeholder description
         String desc = item.getDescription();
         if (desc == null || desc.trim().isEmpty()) {
-            desc = "No description available.";
+            desc = "Camp Half-Blood Member.";
         }
 
         // Placeholder image by using System Icon
@@ -67,6 +64,16 @@ public class SimpleAdapter extends RecyclerView.Adapter<MyViewHolder> {
         if (imgRes == 0) {
             imgRes = android.R.drawable.ic_menu_report_image;
         }
+        //Displays content on recycle view
+        //Displayed when values are not null
+        holder.titleView.setText(item.getTitle());
+        holder.descView.setText(item.getDescription());
+        holder.imageView.setImageResource(item.getImageResId());
+
+        //Displayed if values are null
+        holder.titleView.setText(title);
+        holder.descView.setText(desc);
+        holder.imageView.setImageResource(imgRes);
 
         //Binds data to the "detailed activity"
         holder.itemView.setOnClickListener(v -> {
