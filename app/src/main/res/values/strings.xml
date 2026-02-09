@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Lab2-4443</string>
+    <string name="title">Percy Jackson And The Olympians</string>
+    <string-array name="list_title_txt">
+        <item>Annabeth</item>
+        <item>Ares</item>
+        <item>Athena</item>
+        <item>Chiron</item>
+        <item>Clarisse</item>
+        <item>Dionysus</item>
+        <item>Grover</item>
+        <item>Hermes</item>
+        <item>Luke</item>
+        <item>Medusa</item>
+        <item>Percy</item>
+        <item>Poseidon</item>
+        <item>Tantalus</item>
+        <item>Thalia</item>
+        <item>Tyson</item>
+    </string-array>
+
+    <string-array name="list_title_full_txt">
+        <item>Annabeth Chase (Daughter of Athena)</item>
+        <item>Ares (Ἄρης, God of War)</item>
+        <item>Athena (Ἀθηνᾶ, Goddess of Wisdom)</item>
+        <item>Chiron (Χείρων, the Wise Centaur)</item>
+        <item>Clarisse La Rue (Daughter of Ares)</item>
+        <item>Dionysus (Διόνυσος, God of Wine and Madness)</item>
+        <item>Grover Underwood (Satyr of Greek Myth)</item>
+        <item>Hermes (Ἑρμῆς, God of Messengers and Trickery)</item>
+        <item>Luke Castellan (Son of Hermes)</item>
+        <item>Medusa (Μέδουσα, the Gorgon)</item>
+        <item>Perseus Jackson (Perseus, Son of Poseidon)</item>
+        <item>Poseidon (Ποσειδῶν, God of the Sea)</item>
+        <item>Tantalus (Τάνταλος, King Punished in Tartarus)</item>
+        <item>Thalia Grace (Daughter of Zeus)</item>
+        <item>Tyson (Cyclops, Son of Poseidon)</item>
+    </string-array>
+    <string-array name="list_desc_txt">
+        <item>Smart daughter of Athena</item>
+        <item>God of brutal war</item>
+        <item>Goddess of wisdom</item>
+        <item>Wise centaur camp director</item>
+        <item>Fierce Ares warrior</item>
+        <item>God of wine chaos</item>
+        <item>Loyal satyr protector</item>
+        <item>Trickster messenger god</item>
+        <item>Skilled conflicted swordsman</item>
+        <item>Cursed snake-haired monster</item>
+        <item>Hero son of Poseidon</item>
+        <item>God of the sea</item>
+        <item>Punished king of Tartarus</item>
+        <item>Powerful daughter of Zeus</item>
+        <item>Kind cyclops brother</item>
+    </string-array>
+
+    <string-array name="list_desc_detailed_text">
+            <item>Brilliant daughter of Athena, known for her intelligence, leadership, and strategic mind. She is a skilled architect and planner who often saves her friends through logic and careful thinking.</item>
+            <item>God of war who represents the violent, brutal side of battle. He thrives on conflict and chaos, often manipulating others to start wars and prove his strength.</item>
+            <item>Goddess of wisdom, battle strategy, and craftsmanship. She values intelligence over brute force and guides heroes who rely on cleverness and skill.</item>
+            <item>Wise and experienced centaur who serves as the director of Camp Half-Blood. He trains demigods, offers guidance, and helps protect young heroes from mythical dangers.</item>
+            <item>Fearsome warrior and daughter of Ares who is strong, competitive, and battle-hardened. She struggles between her tough exterior and her loyalty to friends.</item>
+            <item>God of wine, madness, and unpredictable behavior. Though often sarcastic and grumpy as camp director, he hides surprising depth and ancient power.</item>
+            <item>Loyal satyr and protector who dedicates his life to guarding demigods. Though nervous and comedic, he is brave, caring, and deeply committed to his friends.</item>
+            <item>Trickster messenger god known for speed, cleverness, and mischief. He delivers messages for the gods and often bends rules for fun or personal gain.</item>
+            <item>Skilled swordsman who struggles with his past, family legacy, and loyalty. He constantly battles inner conflict while trying to prove himself as a true hero.</item>
+            <item>Cursed monster with snake hair whose gaze turns people to stone. Once a victim of divine punishment, she represents tragedy, anger, and revenge.</item>
+            <item>Heroic son of Poseidon with the ability to control water. Brave, loyal, and determined, he leads quests and fights to protect both humans and gods.</item>
+            <item>God of the sea, earthquakes, and storms. Powerful and commanding, he is both a caring father and a distant ruler of the oceans.</item>
+            <item>Punished king forced to hold the weight of the sky as eternal torment. He represents endurance, suffering, and the cost of defying the gods.</item>
+        <item>Powerful daughter of Zeus who commands electricity and lightning. Confident and strong-willed, she proves herself as a capable and determined hero.</item>
+        <item>Kind-hearted cyclops who helps build magical weapons and tools. Though gentle and misunderstood, he is loyal, creative, and devoted to his friends.</item>
+    </string-array>
+
+
+</resources>
